@@ -11,11 +11,12 @@
     --font: Unifont;
 
     /* TODO: Need better color scheme */
-    --darkest-color: #0E0D0D;
-    --not-so-dark-color: #151414;
-    --middle-color: #6C0808;
-    --not-so-bright-color: #855050;
-    --brightest-color: #6B696A;
+    /* Currently is based on junko.konno.tk color */
+    --darkest-color: #393E46;
+    --not-so-dark-color: #202123;
+    --middle-color: #A0A8AE;
+    --not-so-bright-color: #63687B;
+    --brightest-color: #F7F7F7;
 }
 
 body {
@@ -27,6 +28,8 @@ body {
 .nav {
     text-align: center;
     align-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -36,17 +39,35 @@ body {
     margin-top: 15px;
 }
 
-.neko-main {
+.hibiki-main {
     /* Image */
-    background-image: url("https://cdn.discordapp.com/avatars/261815692150571009/3a2097498ea3453eb8b5b7de1b1dbc33.png?size=1024");
+    background-image: url("../images/hibiki-main.png");
     background-repeat: no-repeat;
     background-size: contain;
 
     /* Position */
     position: relative;
-    width: 454px;
-    height: 454px;
+    width: 252px;
+    height: 248px;
     margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.hibiki {
+    /* Image */
+    background-image: url("../images/hibiki-side.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.75;
+
+    /* Position */
+    z-index: -1;
+    position: fixed;
+    width: 311px;
+    height: 512px;
+    right: 0px;
+    bottom: 0px;
 }
 
 /* Text styles */
@@ -61,6 +82,19 @@ h5 {
     color: var(--brightest-color)
 }
 
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .underline {
     text-decoration: underline;
+}
+
+.lowkey {
+    color: var(--middle-color);
+    opacity: 0.5;
+    font-size: 12pt;
 }
