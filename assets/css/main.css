@@ -1,0 +1,66 @@
+/* Fonts */
+@font-face {
+    font-family: "Unifont";
+    src: url("../../assets/fonts/unifont-13.0.04.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Colors and Fonts */
+:root {
+    --font: Unifont;
+
+    /* TODO: Need better color scheme */
+    --darkest-color: #0E0D0D;
+    --not-so-dark-color: #151414;
+    --middle-color: #6C0808;
+    --not-so-bright-color: #855050;
+    --brightest-color: #6B696A;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--darkest-color);
+}
+
+/* Components */
+.nav {
+    text-align: center;
+    align-content: center;
+}
+
+.content {
+    align-content: center;
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
+.neko-main {
+    /* Image */
+    background-image: url("https://cdn.discordapp.com/avatars/261815692150571009/3a2097498ea3453eb8b5b7de1b1dbc33.png?size=1024");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    /* Position */
+    position: relative;
+    width: 454px;
+    height: 454px;
+    margin: 0px auto;
+}
+
+/* Text styles */
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-decoration: none;
+    color: var(--brightest-color)
+}
+
+.underline {
+    text-decoration: underline;
+}
