@@ -12,10 +12,10 @@
 
     /* TODO: Need better color scheme */
     /* Currently is based on junko.konno.tk color */
-    --darkest-color: #393E46;
+    --darkest-color: #3C4048;
     --not-so-dark-color: #202123;
-    --middle-color: #A0A8AE;
-    --not-so-bright-color: #63687B;
+    --middle-color: #B2B2B2;
+    --not-so-bright-color: #F2E7D5;
     --brightest-color: #F7F7F7;
 }
 
@@ -37,6 +37,14 @@ body {
     text-align: center;
     font-size: 14pt;
     margin-top: 15px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: var(--not-so-bright-color);
 }
 
 .hibiki-main {
