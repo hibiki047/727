@@ -22,3 +22,5 @@ function image_gene () {
 </div>`
   }
 }
+
+image_gene()
