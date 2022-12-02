@@ -10,3 +10,15 @@ image_generate_data = [
   },
   ]
 
+function image_gene () {
+  var grid = document.getElementById('grid-image')
+
+  for (var i = 0; i < image_generate_data.length; i++) {
+    imgur = image_generate_data[i]
+    grid.innerHTML += `
+<div class="grid-entry">
+    <img class="image"
+        src="${imgur.url}">
+</div>`
+  }
+}
