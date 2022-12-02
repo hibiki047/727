@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 佐久夜姬后宫区域 </title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <div class="nav">
+        <a class="underline" href="/727"> home </a>
+        <a> - </a>
+        <a class="underline" href="/727/gallery"> gallery </a>
+        <a> - </a>
+        <a class="underline" href="/727/collab"> collabs </a>
+        <a> - </a>
+        <a class="underline" href="/727/about"> about </a>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <h1> Collaboration Profile </h1>
+
+        <div class="collab-info">
+            <h2 class="underline"> PAKB: Server Profile Picture </h2>
+            <div class="collab-pakb-entry grid" id="grid-collab">
+                <!-- Entry here (with javascript) -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scuffed code cuz im lazy -->
+    <script type="text/javascript" src="assets/scripts/collab.js"></script>
+
+    <!-- Inline css cuz yes -->
+    <style>
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .grid-entry {
+            text-align: center;
+            border: 1px solid var(--not-so-bright-color);
+            overflow: hidden;
+            height: 300px;
+        }
+
+        .image {
+            width: auto;
+            height: 300px;
+        }
+
+        .image-info {
+            transition: all 0.2s ease;
+            font-size: 15px;
+            width: 300px;
+            text-align: center;
+            background-color: #1a1a1a;
+            opacity: 0.85;
+            position: sticky;
+            transform: translate(0%, -105%);
+            text-shadow: 0 5px 5px #000, 0 5px 5px #000;
+            z-index: 1;
+        }
+
+        .image-info:hover {
+            font-size: 13px;
+            opacity: 0.3;
+        }
+    </style>
+</body>
+
+</html>
