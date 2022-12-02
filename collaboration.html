@@ -22,8 +22,56 @@
 
     <!-- Content -->
     <div class="content">
-        <h1> this will be the collaboration thing </h1>
+        <h1> Collaboration Profile </h1>
+        <h4> PAKB Server Profile Picture </h4>
     </div>
+    <style>
+        body {
+            background-color: #C0C0C0
+        }
+        
+        .top_space {
+            margin-bottom: 50px;
+            text-align: center;
+            color: lime
+        }
+        
+        .grid {
+            transition: all ease;
+            display: flex;
+            flex-warp:warp;
+            justify-content: center;
+            gap: 10px;
+            color: white;
+        }
+        
+        .image {
+            width: auto;
+            height: auto;
+            text-align: center;
+            scale: 1.0;
+            transition: all 0.1s;
+            rotate: 23;
+            z-index: 0;
+        }
+        
+        .image:hover {
+            transform: translate(0%, 2%);
+            scale: 1.05;
+            outline-color: white;
+            outline-style: dashed;
+            outline-width: 4;
+            z-index: 69;
+        }
+        
+        .text-info {
+            background-color: #C0C0C0;
+            position: fixed;
+            transform: translate(30%, -150%);
+            text-shadow: 0 5px 5px #000, 0 5px 5px #000;
+        }
+    </style>
+    /* blast balls */
 </body>
 
 </html>
