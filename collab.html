@@ -82,14 +82,55 @@
     </style>
     
     <div class="content">
-        <div class="collab-info">
+        <div class="sino-info">
             <h2 class="underline"> Sinoalice </h2>
-            <div class="collab-pakb-entry grid" id="grid-collab">
+            <div class="sinoalice-entry grid" id="grid-collab">
                 <!-- Entry here (with javascript) -->
             </div>
         </div>
     </div>
-    ok lets see
+    
+    <!-- lol -->
+    <style>
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .grid-entry {
+            text-align: center;
+            border: 1px solid var(--not-so-bright-color);
+            overflow: hidden;
+            height: auto;
+        }
+
+        .image {
+            width: auto;
+            height: auto;
+        }
+
+        .image-info {
+            transition: all 0.2s ease;
+            font-size: 15px;
+            width: 300px;
+            text-align: center;
+            background-color: #1a1a1a;
+            opacity: 0.85;
+            position: sticky;
+            transform: translate(0%, -105%);
+            text-shadow: 0 5px 5px #000, 0 5px 5px #000;
+            z-index: 1;
+        }
+
+        .image-info:hover {
+            font-size: 13px;
+            opacity: 0.3;
+        }
+    </style>
+    
+    <!-- maybe not idk -->
 </body>
 
 </html>
