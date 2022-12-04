@@ -6,7 +6,7 @@ sinoalice = [
 ]
 
 function sino_collab () {
-  var grid = document.getElementById('grid-collab')
+  var grid = document.getElementById('sino-collab')
   
   for (var i = 0; i < sinoalice.length; i++) {
     member = sinoalice[i]
@@ -21,4 +21,4 @@ function sino_collab () {
   }
 }
 
-sinoalice()
+sino_collab()
