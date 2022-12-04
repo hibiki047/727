@@ -44,6 +44,11 @@ pakb_collab_data = [
     name: 'Mii',
     url: 'https://cdn.discordapp.com/attachments/782136789103280129/1048203325960618004/niti.png',
     tag: 'Mii#7142'
+  },
+  {
+    name: 'Mooth',
+    url: 'https://cdn.discordapp.com/attachments/1018053086893326426/1036853466531909642/mooth.png',
+    tag: 'Mooth#3118'
   }
 ]
 
