@@ -6,11 +6,11 @@ sinoalice = [
 ]
 
 function sino_collab () {
-  var grid = document.getElementById('sino-collab')
+  var grid1 = document.getElementById('sino-collab')
   
   for (var i = 0; i < sinoalice.length; i++) {
     member = sinoalice[i]
-    grid.innerHTML += `
+    grid1.innerHTML += `
 <div class="grid-entry">
     <img class="image"
         src="${member.url}">
