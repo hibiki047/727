@@ -11,10 +11,10 @@ function sino_collab () {
   for (var i = 0; i < sinoalice.length; i++) {
     member = sinoalice[i]
     grid1.innerHTML += `
-<div class="grid-entry">
-    <img class="image"
+<div class="grid-entry1">
+    <img class="image1"
         src="${member.url}">
-    <div class="image-info">
+    <div class="image-info1">
         <a> Username: ${member.name} </a> <br />
     </div>
 </div>`
