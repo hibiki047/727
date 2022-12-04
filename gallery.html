@@ -48,13 +48,21 @@
 
         .grid-entry {
             text-align: center;
-            border: 1px solid var(--not-so-bright-color);
         }
 
         .image {
+            border: 1px solid var(--not-so-bright-color);
             width: 100%;
             max-width: 600px;
             height: auto;
+            transition: all 0.1s ease-out;
+            z-index: 0;
+        }
+
+        .image:hover {
+            scale: 1.2;
+            z-index: 420;
+            transform: rotate(0.5deg);
         }
     </style>
 </body>
