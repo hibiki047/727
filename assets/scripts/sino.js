@@ -54,7 +54,7 @@ sinoalice = [
 ]
 
 function sino_collab() {
-  var grid1 = document.getElementById('sino-collab')
+  var grid1 = document.getElementById('collab-sino')
 
   for (var i = 0; i < sinoalice.length; i++) {
     member = sinoalice[i]

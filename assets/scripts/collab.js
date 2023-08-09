@@ -52,8 +52,8 @@ pakb_collab_data = [
   }
 ]
 
-function add_collab () {
-  var grid = document.getElementById('grid-collab')
+function add_collab() {
+  var grid = document.getElementById('collab-pakb')
 
   for (var i = 0; i < pakb_collab_data.length; i++) {
     member = pakb_collab_data[i]
