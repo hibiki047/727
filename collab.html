@@ -83,11 +83,14 @@
 </body>
 
 <body>
+    <!-- FireRedz: Neko that is not how youre supposed to add the collab lmao, whatever i guess, its fine. -->
+
+    <!-- Neko: -->
     <!-- Sincase -->
     <div class="content">
         <div class="sino-info">
             <h2 class="underline"> Sinoalice </h2>
-            <div class="sinoalice-entry grid1" id="sino-collab">
+            <div class="sinoalice-entry grid-sino" id="sino-collab">
                 <script type="text/javascript" src="assets/scripts/sino.js"></script>
             </div>
         </div>
@@ -95,30 +98,38 @@
 
     <!-- lol -->
     <style>
-        .grid1 {
+        .grid-sino {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 10px;
         }
 
-        .grid-entry1 {
+        .grid-entry-sino {
             text-align: center;
             border: 1px solid var(--not-so-bright-color);
             overflow: hidden;
-            height: 800px;
+            height: 300px;
+            width: 400px;
+            transition: all 0.5s ease;
         }
 
-        .image1 {
-            width: 100%;
-            max-width: 600px;
-            height: 800px;
+        .grid-entry-sino:hover {
+            width: 500px;
+            height: 300px
         }
 
-        .image-info1 {
+        .image-sino {
+            width: auto;
+            height: 300px;
+            object-fit: cover;
+            margin: auto;
+        }
+
+        .image-info-sino {
             transition: all 0.2s ease;
             font-size: 15px;
-            width: 600px;
+            width: auto;
             text-align: center;
             background-color: #1a1a1a;
             opacity: 0.85;
@@ -128,11 +139,13 @@
             z-index: 1;
         }
 
-        .image-info1:hover {
-            font-size: 13px;
-            opacity: 0.3;
+        .image-info-sino:hover {
+            font-size: 24px;
+            opacity: 1.0;
         }
     </style>
+
+    <hr />
 
     <!-- maybe not idk -->
 </body>

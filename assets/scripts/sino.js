@@ -53,18 +53,20 @@ sinoalice = [
   }
 ]
 
-function sino_collab () {
+function sino_collab() {
   var grid1 = document.getElementById('sino-collab')
-  
+
   for (var i = 0; i < sinoalice.length; i++) {
     member = sinoalice[i]
     grid1.innerHTML += `
-<div class="grid-entry1">
-    <img class="image1"
+<div class="grid-entry-sino">
+<a href="${member.url}">
+    <img class="image-sino"
         src="${member.url}">
-    <div class="image-info1">
+    <div class="image-info-sino">
         <a> Username: ${member.name} </a> <br />
     </div>
+</a>
 </div>`
   }
 }
