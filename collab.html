@@ -8,6 +8,7 @@
     <title> 佐久夜姬后宫区域 </title>
 
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/collab.css">
     <link rel="icon" href="https://imgur.com/nSooW6m.png">
 </head>
 
@@ -27,127 +28,33 @@
     <div class="content">
         <h1> Collaboration Profile </h1>
 
+        <!-- PAKB Collab -->
         <div class="collab-info">
             <h2 class="underline"> Server Profile Picture </h2>
             <div class="collab-pakb-entry grid" id="grid-collab">
                 <!-- Entry here (with javascript) -->
             </div>
         </div>
+
+        <!-- SinoAlice Collab -->
+        <div class="content">
+            <div class="sino-info">
+                <h2 class="underline"> Sinoalice </h2>
+                <div class="sinoalice-entry grid-sino" id="sino-collab">
+                    <!-- To be filed with javascript. -->
+                </div>
+            </div>
+        </div>
     </div>
+
+    <hr />
 
     <!-- small hibiki -->
     <div class="hibiki"></div>
 
     <!-- Scuffed code cuz im lazy -->
     <script type="text/javascript" src="assets/scripts/collab.js"></script>
-
-    <!-- Inline css cuz yes -->
-    <style>
-        .grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .grid-entry {
-            text-align: center;
-            border: 1px solid var(--not-so-bright-color);
-            overflow: hidden;
-            height: 300px;
-        }
-
-        .image {
-            width: auto;
-            height: 300px;
-        }
-
-        .image-info {
-            transition: all 0.2s ease;
-            font-size: 15px;
-            width: 300px;
-            text-align: center;
-            background-color: #1a1a1a;
-            opacity: 0.85;
-            position: sticky;
-            transform: translate(0%, -105%);
-            text-shadow: 0 5px 5px #000, 0 5px 5px #000;
-            z-index: 1;
-        }
-
-        .image-info:hover {
-            font-size: 13px;
-            opacity: 0.3;
-        }
-    </style>
-</body>
-
-<body>
-    <!-- FireRedz: Neko that is not how youre supposed to add the collab lmao, whatever i guess, its fine. -->
-
-    <!-- Neko: -->
-    <!-- Sincase -->
-    <div class="content">
-        <div class="sino-info">
-            <h2 class="underline"> Sinoalice </h2>
-            <div class="sinoalice-entry grid-sino" id="sino-collab">
-                <script type="text/javascript" src="assets/scripts/sino.js"></script>
-            </div>
-        </div>
-    </div>
-
-    <!-- lol -->
-    <style>
-        .grid-sino {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .grid-entry-sino {
-            text-align: center;
-            border: 1px solid var(--not-so-bright-color);
-            overflow: hidden;
-            height: 300px;
-            width: 400px;
-            transition: all 0.5s ease;
-        }
-
-        .grid-entry-sino:hover {
-            width: 500px;
-            height: 300px
-        }
-
-        .image-sino {
-            width: auto;
-            height: 300px;
-            object-fit: cover;
-            margin: auto;
-        }
-
-        .image-info-sino {
-            transition: all 0.2s ease;
-            font-size: 15px;
-            width: auto;
-            text-align: center;
-            background-color: #1a1a1a;
-            opacity: 0.85;
-            position: sticky;
-            transform: translate(0%, -105%);
-            text-shadow: 0 5px 5px #000, 0 5px 5px #000;
-            z-index: 1;
-        }
-
-        .image-info-sino:hover {
-            font-size: 24px;
-            opacity: 1.0;
-        }
-    </style>
-
-    <hr />
-
-    <!-- maybe not idk -->
+    <script type="text/javascript" src="assets/scripts/sino.js"></script>
 </body>
 
 </html>
